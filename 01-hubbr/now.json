@@ -1,0 +1,7 @@
+{
+    "builds": [
+        {"src": "index.html", "use": "@now/static"},
+        {"src": "api/*.php", "use": "now-php"},
+        {"src": "api/*.ts", "use": "@now/node"}
+    ]
+}
